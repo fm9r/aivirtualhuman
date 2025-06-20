@@ -1,0 +1,43 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.conda/
+env/
+venv/
+
+# Large files
+*.zip
+*.aa
+*.ab
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+*.wmv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Large directories (excluding the ones we want to keep)
+ffmpeg_portable/
+echomimic_v2-main/
+pats/
+drive-download-*
+Abortion_Laws_*/
+collected_train_videos/
+
+# Other analysis files we don't need
+train_videos_analysis_v1.json
+train_videos_analysis_v2.json
+标准_*.mp4 
